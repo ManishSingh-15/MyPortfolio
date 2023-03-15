@@ -1,0 +1,269 @@
+/* ############NAVBAR################### */
+.navbar{
+  background-color: #9FC9F3;
+}
+.active-section{
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+.nav-text{
+  color: white;
+}
+.nav-text:hover{
+  color: #0096FF;
+}
+.my-name{
+   color: #c2edfa;
+   font-weight: bold;
+   font-family: Lucida,cursive;
+}
+.my-name:hover{
+  color: white;
+}
+.ml-auto{
+  margin-left: auto;
+}
+
+/* ################MID DATA###################### */
+
+
+
+ .mid-body {
+  padding: 250px;
+  height: 50%;
+  width: 100%;
+  background-color: #7FBCD2;
+  border: 3px;
+}
+
+.card-img-top{
+  width: 270px;
+  border-radius: 50%;
+  margin: 15% auto auto auto;
+}
+
+.row{
+  padding: 3% 10% 5% 10%;
+}
+.mid-data-text{
+  text-align: justify;
+  text-align: center;
+  padding-top: 10%;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 200%;
+  color: #8ac2e4;
+  line-height: 1.8;
+}
+.title-ext-size{
+  font-size: 100%;
+  padding-top: 0;
+}
+.ar-style{
+  background-color: #f0f5f7;
+  width: 5%;
+}
+/* @keyframes i_m_animation {
+  0%{align-items: 10px;}
+  50%{align-items:  20px;}
+  100% {align-items:  50px;}
+}
+.i-m{
+  animation-name: i_m_animation;
+  position: relative;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+} */
+
+.resume-btn{
+  display: block;
+  margin: auto auto 8.6% auto;
+}
+
+
+
+
+
+/* ##########################About######################## */
+.about_body{
+  background-color:#9FC9F3;
+}
+
+h1{
+  color: #0096FF;
+  font-size: 275%;
+  text-align: center;
+  margin-top: 3%;
+  font-family: fantasy,'Times New Roman', Times, serif;
+}
+
+
+.break{
+  border-width: 10px;
+  width: 15%;
+  margin: auto;
+  border-style: dotted;
+  border-bottom-style: none;
+  color: #E1FFEE;
+  margin-top: 1px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+  
+}
+
+.about-img-top{
+  width: 290px;
+  border-radius: 30%;
+  margin: auto;
+}
+.about-text{
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 95%;
+  color:#ffffff;
+  padding-top: 3%;
+  line-height: 1.8;
+}
+.about-row{
+  padding: 5% 10% 10% 10%;
+}
+/* ######################Skills################## */
+
+.skill-body{
+  width: 100%;
+}
+
+.skill-text{
+  margin: auto;
+}
+
+.skill-text-name{
+  text-align: center;
+  font-size: 95%;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+  padding: 6%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.skill-img{
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+.col-dec{
+  background-color: #9FC9F3;
+  border-end-end-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-end-start-radius: 50%;
+  margin: 2% auto;
+  transition: transform .2s;
+}
+
+.col-dec:hover{
+  box-shadow: 2px 2px 10px 5px #d3e5f7;
+  transform: scale(1.1);
+  
+}
+
+.skill_row{
+  padding: 0 10%;
+}
+
+/* ################Projects################## */
+
+.projects-body{
+  background-color:#9FC9F3;
+  padding-bottom: 4%;
+}
+
+.container{
+  height: 300px;
+  width: 85%;
+  margin: auto;
+}
+.projecttitle{
+  margin: 6% 0 22% 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 160%;
+  padding: 5% 15%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+h5{
+  color: white;
+  font-family: fangsong;
+}
+@media(max-width:500px){
+  .projecttitle{
+    font-size:135% ;
+  }
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+.carousel-size{
+  margin: 3% 15%;
+  background-color: #78c7ff;
+}
+
+
+/*#################Form################### */
+.form-body{
+
+  width: 100%;
+}
+.form-contact{
+  margin: 6% 15%;
+}
+
+/* ###################Footer################# */
+
+.footer{
+  width: 100%;
+  padding: 3px;
+  background-color: #9FC9F3;
+}
+.footer-data{
+  display: flex;
+  flex-direction: row;
+  
+}
+#copyright-id{
+  display: inline;
+}
+
+.copyright{
+  font-size: 100%;
+  padding: 4px;
+  margin-bottom: 3px;
+  display: inline;
+
+}
+#logos{
+  display: inline-block;
+  justify-content: center;
+  margin: auto;
+
+}
+
+
+a{
+  text-decoration: none;
+}
+.foot-icon{
+ color: white;
+ margin: 0 4px;
+}
+.foot-icon:hover{
+  color: #bfdff6;
+
+}
+
+
