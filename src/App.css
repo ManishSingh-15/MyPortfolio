@@ -63,28 +63,12 @@
   background-color: #f0f5f7;
   width: 5%;
 }
-/* @keyframes i_m_animation {
-  0%{align-items: 10px;}
-  50%{align-items:  20px;}
-  100% {align-items:  50px;}
-}
-.i-m{
-  animation-name: i_m_animation;
-  position: relative;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
 
-} */
 
 .resume-btn{
   display: block;
   margin: auto auto 8.6% auto;
 }
-
-
-
-
 
 /* ##########################About######################## */
 .about_body{
@@ -157,10 +141,7 @@ h1{
 }
 .col-dec{
   background-color: #9FC9F3;
-  border-end-end-radius: 50%;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-end-start-radius: 50%;
+  border-radius: 80px;
   margin: 2% auto;
   transition: transform .2s;
 }
@@ -200,11 +181,7 @@ h5{
   color: white;
   font-family: fangsong;
 }
-@media(max-width:500px){
-  .projecttitle{
-    font-size:135% ;
-  }
-}
+
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #fff;
 }
@@ -266,4 +243,28 @@ a{
 
 }
 
+/*################FOR MOBILE###################*/
 
+@media(max-width:800px){
+  .projecttitle{
+    font-size:135% ;
+  }
+  .col-dec{
+    width: 30%;
+  }
+  .skill-img{
+    width: 60%;
+  }
+  .skill-text-name{
+    font-size: 75%;
+  }
+  h1{
+    font-size: 230%;
+  }
+  .break{
+    width: 35%;
+  }
+  .experties_level{
+    font-size: 85%;
+  }
+}

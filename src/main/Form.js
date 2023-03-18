@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
+
 export default function Form() {
     const [data,setState]=useState({pname:"",email:"",desc:""})
     const text=(event)=>{
@@ -13,26 +14,11 @@ export default function Form() {
         })
     }
 
-    // const sendMail=()=>{
-    //     Email.send({
-    //         Host : "smtp.elasticemail.com",
-    //         Username : "manish.s15j@gmail.com",
-    //         Password : "7CE8E71543C86CC1CF186A9B3BDDC89BAAF8",
-    //         To : "manish.s15j@gmail.com",
-    //         From : `${data.email}`,
-    //         Subject : "Portfolio connection",
-    //         Body : `${data.pname} \n ${data.desc}`
-    //     }).then(
-    //       message => alert(message)
-    //     );
-    // }
-
-
 
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-    
+   
         emailjs.sendForm('service_itg4zg1', 'template_k4qh7rl', form.current, 'eBtl0hSlgBUv2e5oF')
           .then((result) => {
               console.log(result.text);
